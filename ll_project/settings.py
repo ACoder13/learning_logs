@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-bz3ts(*7nt(n-zm^%1rs3%(ck9m3gv^oa29c%isbym31%cgqy9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 STATIC_ROOT = BASE_DIR / 'static'
 ALLOWED_HOSTS = ['learninglogs.pythonanywhere.com']
@@ -62,7 +62,7 @@ ROOT_URLCONF = 'll_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
