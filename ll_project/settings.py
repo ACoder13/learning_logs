@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-bz3ts(*7nt(n-zm^%1rs3%(ck9m3gv^oa29c%isbym31%cgqy9
 DEBUG = False
 
 STATIC_ROOT = BASE_DIR / 'static'
-ALLOWED_HOSTS = ['learninglogs.pythonanywhere.com']
+ALLOWED_HOSTS = ['learninglogs.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
